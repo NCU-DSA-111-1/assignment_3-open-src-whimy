@@ -1,45 +1,38 @@
-# huffman
+# Huffman
 
-[![Build](https://github.com/drichardson/huffman/actions/workflows/build.yml/badge.svg)](https://github.com/drichardson/huffman/actions/workflows/build.yml)
+[Source Code](https://github.com/drichardson/huffman.git)
 
-A huffman coding library and command line interface to the library. The encoder is a 2 pass encoder. The first pass generates a huffman tree and the second pass encodes the data. The decoder is one pass and uses a huffman code table at the beginning of the compressed file to decode the data.
-
-libhuffman has functions for encoding and decoding both files and memory.
+> Open Source of Huffman
 
 
-## Makefile Build
-
-To build:
+## Makefile
 
     make
 
-To run unit tests:
 
-    make check
+## Run
 
-To run unit tests under valgrind:
+To Encode
 
-    make valgrind_check
+    ./huffcode -i <intput_file_name> -o <output_file_name> -c
+    
+Example
+     
+    ./huffcode -i test_data/1_byte -o encode_data/1_byte_e -c
 
 
-## CMake Build
+To Decode
 
-To build:
+    ./huffcode -i <intput_file_name> -o <output_file_name> -d
+    
+Example
+     
+    ./huffcode -i encode_data/1_byte_e -o decode_data/1_byte_d -d
 
-    mkdir build
-    cd build
-    cmake ..
-    cmake --build .
 
-To run all tests:
-
-    ctest
-
-To run unit tests:
-
-    ctest -R ^check$
-
-To run unit tests under valgrind:
-
-    ctest -R ^valgrind_check$
-
+## Notice
+   > Output_file will be generate right in the folder<huffman>.
+    
+   > Test data were belong to the original files.
+    
+   > The other text file is Revelation from bible.
