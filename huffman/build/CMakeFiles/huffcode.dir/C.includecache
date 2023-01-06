@@ -1,0 +1,32 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/whimy030/workspace/huffman/huffcode.c
+huffman.h
+/home/whimy030/workspace/huffman/huffman.h
+assert.h
+-
+errno.h
+-
+stdio.h
+-
+stdlib.h
+-
+string.h
+-
+malloc.h
+-
+unistd.h
+-
+
+/home/whimy030/workspace/huffman/huffman.h
+stdint.h
+-
+stdio.h
+-
+
