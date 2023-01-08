@@ -16,6 +16,11 @@ By using open-source of these two algorithm, comparing different method for enco
 
 # Reference
 
-(https://github.com/drichardson/huffman.git)GitHub - drichardson/huffman: huffman encoder/decoder
+[Open Source](https://github.com/drichardson/huffman.git)
 
-(https://github.com/wonder-mice/arcd.git)GitHub - wonder-mice/arcd: Simple arithmetic coding library in C
+> GitHub - drichardson/huffman: huffman encoder/decoder
+
+[Open Source](https://github.com/wonder-mice/arcd.git)
+
+> GitHub - wonder-mice/arcd: Simple arithmetic coding library in C
+
