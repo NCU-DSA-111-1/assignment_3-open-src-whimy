@@ -10,6 +10,12 @@ By using open-source of these two algorithm, comparing different method for enco
 
 # simple conclusion
 
-    \item Huffman coding runs faster when processing big size data.
-    \item Arithemtic coding runs faster when processing small size data.
-    \item Both coding runs faster when decoding, slower when encoding. 
+> Huffman coding runs faster when processing big size data.
+> Arithemtic coding runs faster when processing small size data.
+> Both coding runs faster when decoding, slower when encoding. 
+
+# Reference
+
+(https://github.com/drichardson/huffman.git)GitHub - drichardson/huffman: huffman encoder/decoder
+
+(https://github.com/wonder-mice/arcd.git)GitHub - wonder-mice/arcd: Simple arithmetic coding library in C
